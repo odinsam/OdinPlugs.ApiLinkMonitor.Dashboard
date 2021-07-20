@@ -1,7 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
+    <Version>1.0.5</Version>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>OdinPlugs.ApiLinkMonitor.Dashboard</AssemblyName>
+    <RootNamespace>OdinPlugs.ApiLinkMonitor.Dashboard</RootNamespace>
+    
+    <PackageId>$(OdinPackageId)</PackageId>
+    <Authors>$(OdinAuthors)</Authors>
+    <Company>$(OdinCompany)</Company>
+    <Copyright>$(OdinCopyright)</Copyright>
+    <Product>$(OdinProduct)</Product>
+    <Description>$(OdinDescription)</Description>
+    <RepositoryType>$(OdinRepositoryType)</RepositoryType>
+    <RepositoryType>$(OdinRepositoryType)</RepositoryType>
+    <PackageTags>$(OdinPackageTags)</PackageTags>
+    <Title>$(OdinAssemblyName)</Title>
+    <PackageProjectUrl>$(OdinGitUrl)/OdinPlugs.ApiLinkMonitor.Dashboard</PackageProjectUrl>
+    <RepositoryUrl>$(OdinGitUrl)/$(OdinAssemblyName)</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
+    <PackageIcon>icon.png</PackageIcon>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 

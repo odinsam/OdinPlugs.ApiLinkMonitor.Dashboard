@@ -6,7 +6,7 @@
         <OdinGeneratePackageOnBuild>true</OdinGeneratePackageOnBuild>
         <OdinAssemblyName></OdinAssemblyName>
         <!--WinExe、Exe、Library-->
-        <OdinOutputType>Library</OdinOutputType>
+        <OdinOutputType>exe</OdinOutputType>
 
         
         <OdinPackageId>OdinPlugs.ApiLinkMonitor.Dashboard</OdinPackageId>
